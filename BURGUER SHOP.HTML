@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGUER SHOP</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e4e1da;
+            color: #333;
+            text-align: center;
+            background-image: url("FONDO.JPG");
+            background-size: cover;   
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 160px;
+            color: #f1edec;
+            text-shadow: 4px 4px 10px rgba(16, 4, 1, 0.6);
+            text-align: left;
+            margin-left: 150px;  
+            margin-top: -130px;   
+            line-height: 1.1;
+        }
+
+        .p1 {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 3em;
+            color: #f1edec;
+            margin-bottom: 20px;
+            text-align: left;
+            margin-left: 150px;  
+            margin-top: 50px;  
+            font-style: italic;
+        }
+
+        .p2 {
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 1.5em;
+            color: #d8d0ce;
+            margin-bottom: 20px;
+            text-align: left;
+            margin-left: 150px;  
+            margin-top: 10px;  
+        }
+
+        /* Imagen del logo */
+        .logo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;   /* círculo */
+            object-fit: cover;
+            margin-left: 1650px;
+            margin-top: 40px;
+        }
+
+        /* Imagen de la hamburguesa */
+        .burger {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 30px;
+            transition: transform 0.3s ease-in-out;
+            margin-left: 850px;  
+            margin-top: -550px;  
+            -webkit-box-reflect: below 1px 
+                linear-gradient(transparent, rgba(0,0,0,0.3)); /* reflejo */
+        }
+
+        .burger:hover {
+            transform: scale(1.05);
+        }
+
+        nav {
+            position: absolute;
+            top: 70px;
+            right: 300px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            background: rgba(255,255,255,0.9);
+            color: #000;
+            font-size: 20px;
+            font-family: Impact, Charcoal, sans-serif;
+            padding: 12px 25px;
+            border: 2px solid #000;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="LOGO.jpg" alt="Logo Burger King" class="logo">
+       <h1>BURGUER <br> KING</h1>
+       <p class="p1"> Ven a disfrutar de nuestras <br> hamburguesas artesanales</p>
+       
+       <img src="BURGUER_02.png" alt="Hamburguesa" class="burger">
+       <p class="p2">"En Burger Shop llevamos más de 10 años preparando
+        hamburguesas <br> artesanales con los mejores ingredientes frescos y locales. <br>
+        Nuestro compromiso es ofrecer calidad y sabor en cada bocado."</p>
+       
+       <nav>
+           <ul>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#">Menú</a></li>
+               <li><a href="#">Promociones</a></li>
+               <li><a href="#">Reservas</a></li>
+               <li><a href="#">Contacto</a></li>
+           </ul>
+       </nav>
+    </div>
+</body>
+</html>
+
